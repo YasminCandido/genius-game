@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #D8E3E7;
+}
+
+#level-title {
+  font-family: 'Mansalva', cursive;
+  font-size: 5rem;
+  margin:  5%;
+  color: #2A0944;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 16px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #2A0944;
+  border-radius: 50%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #DA7F8F;
+}
+
+.green {
+  background-color: #F34573;
+}
+
+.blue {
+  background-color: #1F3C88;
+}
+
+.yellow {
+  background-color: #6E85B2;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
