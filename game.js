@@ -69,7 +69,7 @@ function nextSequence() {
 }
 
 function playSound(name) {
-    var audio = new Audio("sound" + name + ".mp3");
+    var audio = new Audio("https://github.com/YasminCandido/sounds.git" + name + ".mp3");
     audio.play();
 }
 
